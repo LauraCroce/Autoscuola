@@ -1,9 +1,9 @@
-===========================================
+
 🚗 PROGETTO AUTOSCUOLA (C)
 Laboratorio di Informatica
 Prof. Loglisci
 Università degli Studi di Bari
-==============================
+
 
 ```
 
