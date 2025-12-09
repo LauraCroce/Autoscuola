@@ -1,21 +1,18 @@
+```markdown
 ===========================================
-🚗 PROGETTO AUTOSCUOLA (C)
-Laboratorio di Informatica
-Prof. Loglisci
-Università degli Studi di Bari
-==============================
-
-```
+          🚗 PROGETTO AUTOSCUOLA (C)
+        Laboratorio di Informatica
+              Prof. Loglisci
+       Università degli Studi di Bari
+===========================================
 
 # 📘 Descrizione generale
-
 Il **Progetto Autoscuola** è stato realizzato come attività d’esame per il corso di **Laboratorio di Informatica** tenuto dal **Prof. Loglisci** presso l’Università degli Studi di Bari.  
 Il software, scritto in linguaggio **C**, consente la gestione completa delle attività di un’autoscuola: dalla registrazione degli allievi, alla pianificazione delle lezioni, fino alla gestione degli esami teorici e pratici.
 
 ---
 
 # 🎯 Obiettivi del progetto
-
 Il progetto ha come obiettivo la progettazione e realizzazione di un’applicazione modulare e documentata, che permetta di:
 
 - Gestire gli **allievi** (iscrizioni, dati anagrafici, risultati esami);
@@ -27,7 +24,6 @@ Il progetto ha come obiettivo la progettazione e realizzazione di un’applicazi
 ---
 
 # 🧠 Architettura del progetto
-
 ```
 
 717847_Autoscuola/
@@ -48,7 +44,6 @@ Il progetto ha come obiettivo la progettazione e realizzazione di un’applicazi
 ---
 
 # ⚙️ Tecnologie e strumenti utilizzati
-
 | Strumento / Tecnologia | Descrizione |
 |------------------------|-------------|
 | 💻 **Linguaggio** | C |
@@ -60,7 +55,6 @@ Il progetto ha come obiettivo la progettazione e realizzazione di un’applicazi
 ---
 
 # 🧩 Funzionalità principali
-
 - Gestione e archiviazione dei dati degli allievi  
 - Inserimento, modifica e ricerca informazioni  
 - Gestione esami teorici e pratici  
@@ -70,7 +64,6 @@ Il progetto ha come obiettivo la progettazione e realizzazione di un’applicazi
 ---
 
 # 📄 Generazione della documentazione
-
 Per rigenerare la documentazione Doxygen:
 
 ```bash
@@ -94,3 +87,5 @@ La struttura modulare e l’uso di Doxygen mirano a favorire la chiarezza, la ma
 
 # 🏁 Fine documento
 
+```
+```
