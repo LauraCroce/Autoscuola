@@ -1,0 +1,12 @@
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/menu.h:23: warning: argument listaA from the argument list of mostraMenuPrincipale has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/menu.h:23: warning: argument listaP from the argument list of mostraMenuPrincipale has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/menu.h:23: warning: argument listaE from the argument list of mostraMenuPrincipale has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/menu.h:23: warning: argument listaG from the argument list of mostraMenuPrincipale has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.h:38: warning: argument messaggio from the argument list of conferma has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.c:143: warning: argument a from the argument list of equalsIgnoreCase has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.c:143: warning: argument b from the argument list of equalsIgnoreCase has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.h:52: warning: argument messaggio from the argument list of inputFloat has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.h:45: warning: argument messaggio from the argument list of inputInt has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.h:24: warning: argument buffer from the argument list of inputString has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.h:24: warning: argument maxLen from the argument list of inputString has multiple @param documentation sections
+C:/Users/laura/Desktop/UNIVERSITA'/Laboratorio di informatica/LaboratorioC/717847_Autoscuola/util.c:50: warning: argument cat from the argument list of validaCategoria has multiple @param documentation sections
