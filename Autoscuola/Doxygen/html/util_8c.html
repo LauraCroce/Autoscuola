@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>717847_Autoscuola: Riferimenti per il file util.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">717847_Autoscuola<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('util_8c.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Riferimenti per il file util.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementazione di funzioni di utilità generiche per input/output e validazioni.  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;ctype.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="util_8h_source.html">util.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:a20bbd4d45e3f01305dd709f5a9cc9952" id="r_a20bbd4d45e3f01305dd709f5a9cc9952"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20bbd4d45e3f01305dd709f5a9cc9952">clearBuffer</a> ()</td></tr>
+<tr class="memdesc:a20bbd4d45e3f01305dd709f5a9cc9952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pulisce il buffer di input per evitare letture errate da tastiera.  <br /></td></tr>
+<tr class="memitem:abe9b168a467e18e90189a409a9b0ef20" id="r_abe9b168a467e18e90189a409a9b0ef20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe9b168a467e18e90189a409a9b0ef20">inputString</a> (char *buffer, int maxLen)</td></tr>
+<tr class="memdesc:abe9b168a467e18e90189a409a9b0ef20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquisisce una stringa in modo sicuro dalla tastiera.  <br /></td></tr>
+<tr class="memitem:aacb17c4ff308011485dcb4cdaa0969f3" id="r_aacb17c4ff308011485dcb4cdaa0969f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb17c4ff308011485dcb4cdaa0969f3">validaCategoria</a> (const char *cat)</td></tr>
+<tr class="memdesc:aacb17c4ff308011485dcb4cdaa0969f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valida la categoria di patente inserita (A, B, AM).  <br /></td></tr>
+<tr class="memitem:ac651e666824077bc343d04dc33dc85e2" id="r_ac651e666824077bc343d04dc33dc85e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac651e666824077bc343d04dc33dc85e2">conferma</a> (const char *messaggio)</td></tr>
+<tr class="memdesc:ac651e666824077bc343d04dc33dc85e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mostra un messaggio di conferma e legge la risposta utente.  <br /></td></tr>
+<tr class="memitem:aa91ea421cfedfd51114b6af04d2e8a8b" id="r_aa91ea421cfedfd51114b6af04d2e8a8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91ea421cfedfd51114b6af04d2e8a8b">inputInt</a> (const char *messaggio)</td></tr>
+<tr class="memdesc:aa91ea421cfedfd51114b6af04d2e8a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquisisce un numero intero da tastiera con messaggio.  <br /></td></tr>
+<tr class="memitem:a607682e99e3e04b459213845aa511e45" id="r_a607682e99e3e04b459213845aa511e45"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607682e99e3e04b459213845aa511e45">inputFloat</a> (const char *messaggio)</td></tr>
+<tr class="memdesc:a607682e99e3e04b459213845aa511e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquisisce un numero float da tastiera con messaggio.  <br /></td></tr>
+<tr class="memitem:af6f0d5767349bbc19df9486c71f32b09" id="r_af6f0d5767349bbc19df9486c71f32b09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6f0d5767349bbc19df9486c71f32b09">pulisciSchermo</a> ()</td></tr>
+<tr class="memdesc:af6f0d5767349bbc19df9486c71f32b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pulisce lo schermo in modo portabile.  <br /></td></tr>
+<tr class="memitem:a90e77543b20b10d98c91aba0cd4617fe" id="r_a90e77543b20b10d98c91aba0cd4617fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e77543b20b10d98c91aba0cd4617fe">attendiInvio</a> ()</td></tr>
+<tr class="memdesc:a90e77543b20b10d98c91aba0cd4617fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attende la pressione del tasto INVIO per proseguire.  <br /></td></tr>
+<tr class="memitem:ac4f398ad79f17239e79d903fe61fd667" id="r_ac4f398ad79f17239e79d903fe61fd667"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f398ad79f17239e79d903fe61fd667">equalsIgnoreCase</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:ac4f398ad79f17239e79d903fe61fd667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confronta due stringhe ignorando le differenze tra maiuscole e minuscole.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Implementazione di funzioni di utilità generiche per input/output e validazioni. </p>
+<p>Questo modulo contiene funzioni comuni utilizzate in tutto il gestionale Autoscuola:</p><ul>
+<li>Gestione sicura dell’input da tastiera (stringhe, interi, float)</li>
+<li>Pulizia del buffer e dello schermo</li>
+<li>Confronti case-insensitive tra stringhe</li>
+<li>Validazione della categoria di patente</li>
+<li>Messaggi di conferma </li>
+</ul>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentazione delle funzioni</h2>
+<a id="a90e77543b20b10d98c91aba0cd4617fe" name="a90e77543b20b10d98c91aba0cd4617fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e77543b20b10d98c91aba0cd4617fe">&#9670;&#160;</a></span>attendiInvio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void attendiInvio </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attende la pressione del tasto INVIO per proseguire. </p>
+<p>Attende che l'utente prema INVIO prima di continuare.</p>
+<p>Utile per mettere in pausa tra un menu e l'altro. </p>
+
+</div>
+</div>
+<a id="a20bbd4d45e3f01305dd709f5a9cc9952" name="a20bbd4d45e3f01305dd709f5a9cc9952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20bbd4d45e3f01305dd709f5a9cc9952">&#9670;&#160;</a></span>clearBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clearBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pulisce il buffer di input per evitare letture errate da tastiera. </p>
+<p>Svuota il buffer di input per evitare letture residue.</p>
+<p>Consuma tutti i caratteri fino al newline o EOF, utile dopo un <span class="tt">scanf</span>. </p>
+
+</div>
+</div>
+<a id="ac651e666824077bc343d04dc33dc85e2" name="ac651e666824077bc343d04dc33dc85e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac651e666824077bc343d04dc33dc85e2">&#9670;&#160;</a></span>conferma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int conferma </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>messaggio</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mostra un messaggio di conferma e legge la risposta utente. </p>
+<p>Richiede conferma all'utente con una domanda.</p>
+<p>Accetta risposte tipo "s" o "n" (case insensitive).</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">messaggio</td><td>Il messaggio da visualizzare. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>1 se la risposta è "s", 0 altrimenti. </dd></dl>
+
+</div>
+</div>
+<a id="ac4f398ad79f17239e79d903fe61fd667" name="ac4f398ad79f17239e79d903fe61fd667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f398ad79f17239e79d903fe61fd667">&#9670;&#160;</a></span>equalsIgnoreCase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int equalsIgnoreCase </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Confronta due stringhe ignorando le differenze tra maiuscole e minuscole. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>Prima stringa. </td></tr>
+    <tr><td class="paramname">b</td><td>Seconda stringa. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>1 se uguali (ignora case), 0 altrimenti. </dd></dl>
+
+</div>
+</div>
+<a id="a607682e99e3e04b459213845aa511e45" name="a607682e99e3e04b459213845aa511e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a607682e99e3e04b459213845aa511e45">&#9670;&#160;</a></span>inputFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float inputFloat </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>messaggio</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Acquisisce un numero float da tastiera con messaggio. </p>
+<p>Acquisisce un numero decimale (float) da tastiera con messaggio personalizzato.</p>
+<p>Ripete l’input finché non viene inserito un valore valido.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">messaggio</td><td>Messaggio da mostrare all’utente. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>Float inserito. </dd></dl>
+
+</div>
+</div>
+<a id="aa91ea421cfedfd51114b6af04d2e8a8b" name="aa91ea421cfedfd51114b6af04d2e8a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91ea421cfedfd51114b6af04d2e8a8b">&#9670;&#160;</a></span>inputInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int inputInt </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>messaggio</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Acquisisce un numero intero da tastiera con messaggio. </p>
+<p>Acquisisce un intero da tastiera con messaggio personalizzato.</p>
+<p>Ripete l’input finché non viene inserito un valore valido.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">messaggio</td><td>Messaggio da mostrare all’utente. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>Intero inserito. </dd></dl>
+
+</div>
+</div>
+<a id="abe9b168a467e18e90189a409a9b0ef20" name="abe9b168a467e18e90189a409a9b0ef20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe9b168a467e18e90189a409a9b0ef20">&#9670;&#160;</a></span>inputString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void inputString </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Acquisisce una stringa in modo sicuro dalla tastiera. </p>
+<p>Acquisisce una stringa da tastiera con lunghezza massima specificata.</p>
+<p>Utilizza <span class="tt">fgets</span> per evitare buffer overflow e rimuove il carattere <span class="tt">\n</span> finale. Se la stringa è troppo lunga, svuota il buffer residuo.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>Array in cui salvare la stringa. </td></tr>
+    <tr><td class="paramname">maxLen</td><td>Lunghezza massima del buffer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af6f0d5767349bbc19df9486c71f32b09" name="af6f0d5767349bbc19df9486c71f32b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f0d5767349bbc19df9486c71f32b09">&#9670;&#160;</a></span>pulisciSchermo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pulisciSchermo </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pulisce lo schermo in modo portabile. </p>
+<p>Pulisce lo schermo del terminale in modo portabile.</p>
+<p>Usa <span class="tt">cls</span> su Windows e <span class="tt">clear</span> su sistemi Unix. </p>
+
+</div>
+</div>
+<a id="aacb17c4ff308011485dcb4cdaa0969f3" name="aacb17c4ff308011485dcb4cdaa0969f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb17c4ff308011485dcb4cdaa0969f3">&#9670;&#160;</a></span>validaCategoria()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int validaCategoria </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>cat</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Valida la categoria di patente inserita (A, B, AM). </p>
+<p>Converte in maiuscolo e confronta con le categorie ammesse.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cat</td><td>Stringa contenente la categoria. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>1 se valida, 0 altrimenti. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="util_8c.html">util.c</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

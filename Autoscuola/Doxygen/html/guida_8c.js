@@ -1,0 +1,25 @@
+var guida_8c =
+[
+    [ "Guida", "struct_guida.html", "struct_guida" ],
+    [ "ListaGuide", "struct_lista_guide.html", "struct_lista_guide" ],
+    [ "MAX_GUIDE", "guida_8c.html#ad5001e861f193dea71c8ec30b41b0b4f", null ],
+    [ "calcolaCostoOreExtra", "guida_8c.html#aed2b860ee8cdc8f69ff47f4350e20f90", null ],
+    [ "caricaGuide", "guida_8c.html#aae19de442aff1178c25b8e4a1246eae5", null ],
+    [ "cercaGuidaPerID", "guida_8c.html#a9194d9e4147d8c2de46dfc56ea4fd639", null ],
+    [ "creaListaGuide", "guida_8c.html#a49c477312b0a0a952abf574e9a09bead", null ],
+    [ "distruggiListaGuide", "guida_8c.html#a620053fd26535db2c1d05e7bf0c9e588", null ],
+    [ "getGuidaAtIndex", "guida_8c.html#af3125ca58dce5d0a7f19797cd2b0658c", null ],
+    [ "getGuidaIDAllievo", "guida_8c.html#abf55f68f720c270b2e61fbb96b307716", null ],
+    [ "getNumeroGuide", "guida_8c.html#a1b4adbb4401ca856ad8b1c5a20e27455", null ],
+    [ "getOreExtra", "guida_8c.html#adef752c540bc296903f6e716c116e250", null ],
+    [ "getOreSvolte", "guida_8c.html#a71edd44181f5cafda9b60fa70730b378", null ],
+    [ "haCompletateOreObbligatorie", "guida_8c.html#a1bc9500739c85f8a625655b12725ed16", null ],
+    [ "inizializzaGuida", "guida_8c.html#a8a9689109bde02b8eafb273481c26f33", null ],
+    [ "inizializzaListaGuide", "guida_8c.html#a242cda55f2b74cc400892c4504577af8", null ],
+    [ "registraGuida", "guida_8c.html#aafed695254a4cc6f09d245364103b334", null ],
+    [ "registraOreGuida", "guida_8c.html#afee6b1348d6cc14dacaccf05c5f6fe06", null ],
+    [ "salvaGuide", "guida_8c.html#aa0857781bbb8598b4ab635fc584b0a00", null ],
+    [ "stampaGuida", "guida_8c.html#a4812459637304ac3fa1b434dec00bf0f", null ],
+    [ "stampaGuide", "guida_8c.html#a3becbe70c5f11bc1d59bbc1e2219ac67", null ],
+    [ "stampaTutteGuide", "guida_8c.html#a5f1d0f4a077e5a2bcaeef8be4e8cf4dd", null ]
+];

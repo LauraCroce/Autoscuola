@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>717847_Autoscuola:  File sorgente guida.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">717847_Autoscuola<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('guida_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">guida.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="guida_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifndef GUIDA_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define GUIDA_H</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">//COSTANTI PUBBLICHE</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="guida_8h.html#a3898848df30e36f6119a5f3b7c3d7a27">   19</a></span><span class="preprocessor">#define ORE_GUIDA_OBBLIGATORIE 6</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">//TIPI OPACHI</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="guida_8h.html#aab85c4623705d315512e7714a2812b5d">   26</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_guida.html">Guida</a> <a class="code hl_struct" href="struct_guida.html">Guida</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">//FUNZIONI DI CREAZIONE/DISTRUZIONE</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* <a class="code hl_function" href="guida_8h.html#a49c477312b0a0a952abf574e9a09bead">creaListaGuide</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#a620053fd26535db2c1d05e7bf0c9e588">distruggiListaGuide</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>** lista);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#a242cda55f2b74cc400892c4504577af8">inizializzaListaGuide</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">//FUNZIONI DI ACCESSO (GETTER)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keywordtype">int</span> <a class="code hl_function" href="guida_8h.html#a1b4adbb4401ca856ad8b1c5a20e27455">getNumeroGuide</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><a class="code hl_struct" href="struct_guida.html">Guida</a>* <a class="code hl_function" href="guida_8h.html#a9194d9e4147d8c2de46dfc56ea4fd639">cercaGuidaPerID</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keywordtype">int</span> id_allievo);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* <a class="code hl_function" href="guida_8h.html#af3125ca58dce5d0a7f19797cd2b0658c">getGuidaAtIndex</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">int</span> <a class="code hl_function" href="guida_8h.html#abf55f68f720c270b2e61fbb96b307716">getGuidaIDAllievo</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">int</span> <a class="code hl_function" href="guida_8h.html#a71edd44181f5cafda9b60fa70730b378">getOreSvolte</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="keywordtype">int</span> <a class="code hl_function" href="guida_8h.html#adef752c540bc296903f6e716c116e250">getOreExtra</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="keywordtype">bool</span> <a class="code hl_function" href="guida_8h.html#a1bc9500739c85f8a625655b12725ed16">haCompletateOreObbligatorie</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keywordtype">float</span> <a class="code hl_function" href="guida_8h.html#aed2b860ee8cdc8f69ff47f4350e20f90">calcolaCostoOreExtra</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida, <span class="keywordtype">float</span> costo_orario);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="comment">//FUNZIONALITÀ DI DOMINIO</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keywordtype">bool</span> <a class="code hl_function" href="guida_8h.html#a8a9689109bde02b8eafb273481c26f33">inizializzaGuida</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keywordtype">int</span> id_allievo);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="keywordtype">bool</span> <a class="code hl_function" href="guida_8h.html#afee6b1348d6cc14dacaccf05c5f6fe06">registraOreGuida</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keywordtype">int</span> id_allievo, <span class="keywordtype">int</span> ore_da_aggiungere);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#af2a54e51d6a2bd832fdfa89caa8eaacd">registraGuida</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keyword">const</span> <span class="keywordtype">void</span>* listaA);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#a4812459637304ac3fa1b434dec00bf0f">stampaGuida</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_guida.html">Guida</a>* guida);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#a5f1d0f4a077e5a2bcaeef8be4e8cf4dd">stampaTutteGuide</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="keywordtype">void</span> <a class="code hl_function" href="guida_8h.html#a58149e4e5e73215ce107c6aa73f8b038">stampaGuide</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keyword">const</span> <span class="keywordtype">void</span>* listaA);</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="comment">//FUNZIONI I/O FILE</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="keywordtype">bool</span> <a class="code hl_function" href="guida_8h.html#aa0857781bbb8598b4ab635fc584b0a00">salvaGuide</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="keywordtype">bool</span> <a class="code hl_function" href="guida_8h.html#aae19de442aff1178c25b8e4a1246eae5">caricaGuide</a>(<a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="preprocessor">#endif </span><span class="comment">// GUIDA_H</span></div>
+<div class="ttc" id="aguida_8h_html_a1b4adbb4401ca856ad8b1c5a20e27455"><div class="ttname"><a href="guida_8h.html#a1b4adbb4401ca856ad8b1c5a20e27455">getNumeroGuide</a></div><div class="ttdeci">int getNumeroGuide(const ListaGuide *lista)</div><div class="ttdoc">Restituisce il numero di guide registrate.</div><div class="ttdef"><b>Definition</b> guida.c:62</div></div>
+<div class="ttc" id="aguida_8h_html_a1bc9500739c85f8a625655b12725ed16"><div class="ttname"><a href="guida_8h.html#a1bc9500739c85f8a625655b12725ed16">haCompletateOreObbligatorie</a></div><div class="ttdeci">bool haCompletateOreObbligatorie(const Guida *guida)</div><div class="ttdoc">Verifica se un allievo ha completato le ore obbligatorie.</div><div class="ttdef"><b>Definition</b> guida.c:96</div></div>
+<div class="ttc" id="aguida_8h_html_a242cda55f2b74cc400892c4504577af8"><div class="ttname"><a href="guida_8h.html#a242cda55f2b74cc400892c4504577af8">inizializzaListaGuide</a></div><div class="ttdeci">void inizializzaListaGuide(ListaGuide *lista)</div><div class="ttdoc">Inizializza la lista delle guide (retrocompatibilità).</div><div class="ttdef"><b>Definition</b> guida.c:55</div></div>
+<div class="ttc" id="aguida_8h_html_a4812459637304ac3fa1b434dec00bf0f"><div class="ttname"><a href="guida_8h.html#a4812459637304ac3fa1b434dec00bf0f">stampaGuida</a></div><div class="ttdeci">void stampaGuida(const Guida *guida)</div><div class="ttdoc">Stampa i dettagli di una guida (ore totali, ore extra).</div><div class="ttdef"><b>Definition</b> guida.c:190</div></div>
+<div class="ttc" id="aguida_8h_html_a49c477312b0a0a952abf574e9a09bead"><div class="ttname"><a href="guida_8h.html#a49c477312b0a0a952abf574e9a09bead">creaListaGuide</a></div><div class="ttdeci">ListaGuide * creaListaGuide(void)</div><div class="ttdoc">Crea e inizializza una nuova lista di guide.</div><div class="ttdef"><b>Definition</b> guida.c:40</div></div>
+<div class="ttc" id="aguida_8h_html_a58149e4e5e73215ce107c6aa73f8b038"><div class="ttname"><a href="guida_8h.html#a58149e4e5e73215ce107c6aa73f8b038">stampaGuide</a></div><div class="ttdeci">void stampaGuide(const ListaGuide *lista, const void *listaA)</div><div class="ttdoc">Stampa l&#39;elenco delle guide svolte per ciascun allievo.</div><div class="ttdef"><b>Definition</b> guida.c:212</div></div>
+<div class="ttc" id="aguida_8h_html_a5f1d0f4a077e5a2bcaeef8be4e8cf4dd"><div class="ttname"><a href="guida_8h.html#a5f1d0f4a077e5a2bcaeef8be4e8cf4dd">stampaTutteGuide</a></div><div class="ttdeci">void stampaTutteGuide(const ListaGuide *lista)</div><div class="ttdoc">Stampa tutte le guide registrate.</div><div class="ttdef"><b>Definition</b> guida.c:200</div></div>
+<div class="ttc" id="aguida_8h_html_a620053fd26535db2c1d05e7bf0c9e588"><div class="ttname"><a href="guida_8h.html#a620053fd26535db2c1d05e7bf0c9e588">distruggiListaGuide</a></div><div class="ttdeci">void distruggiListaGuide(ListaGuide **lista)</div><div class="ttdoc">Distrugge una lista di guide e libera la memoria.</div><div class="ttdef"><b>Definition</b> guida.c:48</div></div>
+<div class="ttc" id="aguida_8h_html_a71edd44181f5cafda9b60fa70730b378"><div class="ttname"><a href="guida_8h.html#a71edd44181f5cafda9b60fa70730b378">getOreSvolte</a></div><div class="ttdeci">int getOreSvolte(const Guida *guida)</div><div class="ttdoc">Restituisce le ore totali svolte da un allievo.</div><div class="ttdef"><b>Definition</b> guida.c:88</div></div>
+<div class="ttc" id="aguida_8h_html_a8a9689109bde02b8eafb273481c26f33"><div class="ttname"><a href="guida_8h.html#a8a9689109bde02b8eafb273481c26f33">inizializzaGuida</a></div><div class="ttdeci">bool inizializzaGuida(ListaGuide *lista, int id_allievo)</div><div class="ttdoc">Inizializza una nuova guida per un allievo.</div><div class="ttdef"><b>Definition</b> guida.c:107</div></div>
+<div class="ttc" id="aguida_8h_html_a9194d9e4147d8c2de46dfc56ea4fd639"><div class="ttname"><a href="guida_8h.html#a9194d9e4147d8c2de46dfc56ea4fd639">cercaGuidaPerID</a></div><div class="ttdeci">Guida * cercaGuidaPerID(const ListaGuide *lista, int id_allievo)</div><div class="ttdoc">Cerca la guida associata a un ID allievo.</div><div class="ttdef"><b>Definition</b> guida.c:66</div></div>
+<div class="ttc" id="aguida_8h_html_aa0857781bbb8598b4ab635fc584b0a00"><div class="ttname"><a href="guida_8h.html#aa0857781bbb8598b4ab635fc584b0a00">salvaGuide</a></div><div class="ttdeci">bool salvaGuide(const ListaGuide *lista, const char *filename)</div><div class="ttdoc">Salva la lista delle guide su file binario.</div><div class="ttdef"><b>Definition</b> guida.c:256</div></div>
+<div class="ttc" id="aguida_8h_html_aae19de442aff1178c25b8e4a1246eae5"><div class="ttname"><a href="guida_8h.html#aae19de442aff1178c25b8e4a1246eae5">caricaGuide</a></div><div class="ttdeci">bool caricaGuide(ListaGuide *lista, const char *filename)</div><div class="ttdoc">Carica la lista delle guide da file binario.</div><div class="ttdef"><b>Definition</b> guida.c:275</div></div>
+<div class="ttc" id="aguida_8h_html_abf55f68f720c270b2e61fbb96b307716"><div class="ttname"><a href="guida_8h.html#abf55f68f720c270b2e61fbb96b307716">getGuidaIDAllievo</a></div><div class="ttdeci">int getGuidaIDAllievo(const Guida *guida)</div><div class="ttdoc">Ottiene l&#39;ID allievo associato a una guida.</div><div class="ttdef"><b>Definition</b> guida.c:84</div></div>
+<div class="ttc" id="aguida_8h_html_adef752c540bc296903f6e716c116e250"><div class="ttname"><a href="guida_8h.html#adef752c540bc296903f6e716c116e250">getOreExtra</a></div><div class="ttdeci">int getOreExtra(const Guida *guida)</div><div class="ttdoc">Restituisce le ore extra (oltre le 6 obbligatorie).</div><div class="ttdef"><b>Definition</b> guida.c:92</div></div>
+<div class="ttc" id="aguida_8h_html_aed2b860ee8cdc8f69ff47f4350e20f90"><div class="ttname"><a href="guida_8h.html#aed2b860ee8cdc8f69ff47f4350e20f90">calcolaCostoOreExtra</a></div><div class="ttdeci">float calcolaCostoOreExtra(const Guida *guida, float costo_orario)</div><div class="ttdoc">Calcola il costo totale delle ore extra.</div><div class="ttdef"><b>Definition</b> guida.c:100</div></div>
+<div class="ttc" id="aguida_8h_html_af2a54e51d6a2bd832fdfa89caa8eaacd"><div class="ttname"><a href="guida_8h.html#af2a54e51d6a2bd832fdfa89caa8eaacd">registraGuida</a></div><div class="ttdeci">void registraGuida(ListaGuide *lista, const void *listaA)</div><div class="ttdoc">Registra una nuova sessione di guida per un allievo.</div><div class="ttdef"><b>Definition</b> guida.c:153</div></div>
+<div class="ttc" id="aguida_8h_html_af3125ca58dce5d0a7f19797cd2b0658c"><div class="ttname"><a href="guida_8h.html#af3125ca58dce5d0a7f19797cd2b0658c">getGuidaAtIndex</a></div><div class="ttdeci">const Guida * getGuidaAtIndex(const ListaGuide *lista, int index)</div><div class="ttdoc">Ottiene un puntatore alla guida in posizione index.</div><div class="ttdef"><b>Definition</b> guida.c:77</div></div>
+<div class="ttc" id="aguida_8h_html_afee6b1348d6cc14dacaccf05c5f6fe06"><div class="ttname"><a href="guida_8h.html#afee6b1348d6cc14dacaccf05c5f6fe06">registraOreGuida</a></div><div class="ttdeci">bool registraOreGuida(ListaGuide *lista, int id_allievo, int ore_da_aggiungere)</div><div class="ttdoc">Registra ore di guida per un allievo.</div><div class="ttdef"><b>Definition</b> guida.c:124</div></div>
+<div class="ttc" id="astruct_guida_html"><div class="ttname"><a href="struct_guida.html">Guida</a></div><div class="ttdoc">Rappresenta il numero di ore di guida svolte da un allievo.</div><div class="ttdef"><b>Definition</b> guida.c:23</div></div>
+<div class="ttc" id="astruct_lista_guide_html"><div class="ttname"><a href="struct_lista_guide.html">ListaGuide</a></div><div class="ttdoc">Rappresenta l&#39;elenco delle guide di tutti gli allievi.</div><div class="ttdef"><b>Definition</b> guida.c:33</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="guida_8h.html">guida.h</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>
