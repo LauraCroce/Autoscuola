@@ -94,16 +94,3 @@ La struttura modulare e l’uso di Doxygen mirano a favorire la chiarezza, la ma
 
 # 🏁 Fine documento
 
-```
-
----
-
-✅ **Istruzioni finali:**
-1. Vai nella tua repository su GitHub.  
-2. Clicca **“Add file → Create new file”**.  
-3. Nome del file: `README.md`  
-4. Incolla tutto il testo sopra.  
-5. Clicca **Commit new file**.  
-
-Il tuo progetto ora apparirà **perfettamente formattato e leggibile su GitHub**.
-```
