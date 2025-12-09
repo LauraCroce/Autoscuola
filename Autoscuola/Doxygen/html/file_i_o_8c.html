@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>717847_Autoscuola: Riferimenti per il file fileIO.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">717847_Autoscuola<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('file_i_o_8c.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Riferimenti per il file fileIO.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Coordinamento operazioni I/O per la persistenza del sistema Autoscuola.  
+<a href="#details">Continua...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="file_i_o_8h_source.html">fileio.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="allievi_8h_source.html">allievi.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pagamenti_8h_source.html">pagamenti.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="esami_8h_source.html">esami.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="guida_8h_source.html">guida.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:a38263e8e29565c836921529201b3785e" id="r_a38263e8e29565c836921529201b3785e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38263e8e29565c836921529201b3785e">salvaTuttiDati</a> (const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *listaA, const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *listaP, const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *listaE, const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *listaG)</td></tr>
+<tr class="memdesc:a38263e8e29565c836921529201b3785e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salva tutti i dati su file binari.  <br /></td></tr>
+<tr class="memitem:af0e7c115450f098ac5e9af2e6432de8c" id="r_af0e7c115450f098ac5e9af2e6432de8c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e7c115450f098ac5e9af2e6432de8c">caricaTuttiDati</a> (<a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *listaA, <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *listaP, <a class="el" href="struct_lista_esami.html">ListaEsami</a> *listaE, <a class="el" href="struct_lista_guide.html">ListaGuide</a> *listaG)</td></tr>
+<tr class="memdesc:af0e7c115450f098ac5e9af2e6432de8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carica tutti i dati dai file binari.  <br /></td></tr>
+<tr class="memitem:ac2569e2355b6da93db1c2a75895eac5b" id="r_ac2569e2355b6da93db1c2a75895eac5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2569e2355b6da93db1c2a75895eac5b">esportaResocontoCompleto</a> (const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *listaA, const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *listaP, const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *listaE, const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *listaG)</td></tr>
+<tr class="memdesc:ac2569e2355b6da93db1c2a75895eac5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Esporta un resoconto completo in formato testo leggibile.  <br /></td></tr>
+<tr class="memitem:a94f054ce3444977e76b03629cf525ee7" id="r_a94f054ce3444977e76b03629cf525ee7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94f054ce3444977e76b03629cf525ee7">salvaDati</a> (const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *listaA, const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *listaP, const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *listaE, const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *listaG)</td></tr>
+<tr class="memdesc:a94f054ce3444977e76b03629cf525ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper retrocompatibile per <a class="el" href="file_i_o_8h.html#a38263e8e29565c836921529201b3785e" title="Salva tutti i dati su file binari.">salvaTuttiDati()</a>. Mantiene il nome originale della funzione per compatibilità con il codice esistente.  <br /></td></tr>
+<tr class="memitem:a42fe8b93628dfb697dfe63552a66f775" id="r_a42fe8b93628dfb697dfe63552a66f775"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42fe8b93628dfb697dfe63552a66f775">caricaDati</a> (<a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *listaA, <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *listaP, <a class="el" href="struct_lista_esami.html">ListaEsami</a> *listaE, <a class="el" href="struct_lista_guide.html">ListaGuide</a> *listaG)</td></tr>
+<tr class="memdesc:a42fe8b93628dfb697dfe63552a66f775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper retrocompatibile per <a class="el" href="file_i_o_8h.html#af0e7c115450f098ac5e9af2e6432de8c" title="Carica tutti i dati dai file binari.">caricaTuttiDati()</a>. Mantiene il nome originale della funzione per compatibilità con il codice esistente.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Coordinamento operazioni I/O per la persistenza del sistema Autoscuola. </p>
+<p>Questo modulo coordina il salvataggio e caricamento di tutti i dati chiamando le funzioni di I/O di ogni ADT e genera report testuali. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentazione delle funzioni</h2>
+<a id="a42fe8b93628dfb697dfe63552a66f775" name="a42fe8b93628dfb697dfe63552a66f775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42fe8b93628dfb697dfe63552a66f775">&#9670;&#160;</a></span>caricaDati()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void caricaDati </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *</td>          <td class="paramname"><span class="paramname"><em>listaA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *</td>          <td class="paramname"><span class="paramname"><em>listaP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_esami.html">ListaEsami</a> *</td>          <td class="paramname"><span class="paramname"><em>listaE</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_guide.html">ListaGuide</a> *</td>          <td class="paramname"><span class="paramname"><em>listaG</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wrapper retrocompatibile per <a class="el" href="file_i_o_8h.html#af0e7c115450f098ac5e9af2e6432de8c" title="Carica tutti i dati dai file binari.">caricaTuttiDati()</a>. Mantiene il nome originale della funzione per compatibilità con il codice esistente. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaA</td><td>Puntatore alla lista degli allievi. </td></tr>
+    <tr><td class="paramname">listaP</td><td>Puntatore alla lista dei pagamenti. </td></tr>
+    <tr><td class="paramname">listaE</td><td>Puntatore alla lista degli esami. </td></tr>
+    <tr><td class="paramname">listaG</td><td>Puntatore alla lista delle guide. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af0e7c115450f098ac5e9af2e6432de8c" name="af0e7c115450f098ac5e9af2e6432de8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0e7c115450f098ac5e9af2e6432de8c">&#9670;&#160;</a></span>caricaTuttiDati()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool caricaTuttiDati </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *</td>          <td class="paramname"><span class="paramname"><em>listaA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *</td>          <td class="paramname"><span class="paramname"><em>listaP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_esami.html">ListaEsami</a> *</td>          <td class="paramname"><span class="paramname"><em>listaE</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_lista_guide.html">ListaGuide</a> *</td>          <td class="paramname"><span class="paramname"><em>listaG</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Carica tutti i dati dai file binari. </p>
+<p>Chiama le funzioni di caricamento di ogni ADT:</p><ul>
+<li><a class="el" href="allievi_8h.html#ac9d8d45251149995e8c6ffd5274122a6" title="Carica la lista degli allievi da file binario.">caricaAllievi()</a> da allievi.dat</li>
+<li><a class="el" href="pagamenti_8h.html#a03381e8da46ea1eb9d6087574d61c8c6" title="Carica la lista dei pagamenti da file binario.">caricaPagamenti()</a> da pagamenti.dat</li>
+<li><a class="el" href="esami_8h.html#abc686bc445c69ee11ac1b9a1d57bea2b" title="Carica la lista degli esami da file binario.">caricaEsami()</a> da esami.dat</li>
+<li><a class="el" href="guida_8c.html#aae19de442aff1178c25b8e4a1246eae5" title="Carica la lista delle guide da file binario.">caricaGuide()</a> da guide.dat</li>
+</ul>
+<p>In caso di file mancante, la lista corrispondente resta vuota.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaA</td><td>Puntatore alla lista degli allievi. </td></tr>
+    <tr><td class="paramname">listaP</td><td>Puntatore alla lista dei pagamenti. </td></tr>
+    <tr><td class="paramname">listaE</td><td>Puntatore alla lista degli esami. </td></tr>
+    <tr><td class="paramname">listaG</td><td>Puntatore alla lista delle guide. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>true se almeno un caricamento riesce, false se tutti falliscono. </dd></dl>
+
+</div>
+</div>
+<a id="ac2569e2355b6da93db1c2a75895eac5b" name="ac2569e2355b6da93db1c2a75895eac5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2569e2355b6da93db1c2a75895eac5b">&#9670;&#160;</a></span>esportaResocontoCompleto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool esportaResocontoCompleto </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *</td>          <td class="paramname"><span class="paramname"><em>listaA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *</td>          <td class="paramname"><span class="paramname"><em>listaP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *</td>          <td class="paramname"><span class="paramname"><em>listaE</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *</td>          <td class="paramname"><span class="paramname"><em>listaG</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Esporta un resoconto completo in formato testo leggibile. </p>
+<p>Genera il file <span class="tt">resoconto_allievi.txt</span> con tutti i dettagli:</p><ul>
+<li>Dati anagrafici di ogni allievo</li>
+<li>Stato pagamenti (rate + ore extra)</li>
+<li>Stato esami con date dei tentativi</li>
+<li>Ore di guida svolte ed extra</li>
+</ul>
+<p>Usa le interfacce pubbliche degli ADT (getter) per ottenere i dati.</p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaA</td><td>Puntatore alla lista degli allievi. </td></tr>
+    <tr><td class="paramname">listaP</td><td>Puntatore alla lista dei pagamenti. </td></tr>
+    <tr><td class="paramname">listaE</td><td>Puntatore alla lista degli esami. </td></tr>
+    <tr><td class="paramname">listaG</td><td>Puntatore alla lista delle guide. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>true se l'esportazione riesce, false altrimenti. </dd></dl>
+
+</div>
+</div>
+<a id="a94f054ce3444977e76b03629cf525ee7" name="a94f054ce3444977e76b03629cf525ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f054ce3444977e76b03629cf525ee7">&#9670;&#160;</a></span>salvaDati()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void salvaDati </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *</td>          <td class="paramname"><span class="paramname"><em>listaA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *</td>          <td class="paramname"><span class="paramname"><em>listaP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *</td>          <td class="paramname"><span class="paramname"><em>listaE</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *</td>          <td class="paramname"><span class="paramname"><em>listaG</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wrapper retrocompatibile per <a class="el" href="file_i_o_8h.html#a38263e8e29565c836921529201b3785e" title="Salva tutti i dati su file binari.">salvaTuttiDati()</a>. Mantiene il nome originale della funzione per compatibilità con il codice esistente. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaA</td><td>Puntatore alla lista degli allievi. </td></tr>
+    <tr><td class="paramname">listaP</td><td>Puntatore alla lista dei pagamenti. </td></tr>
+    <tr><td class="paramname">listaE</td><td>Puntatore alla lista degli esami. </td></tr>
+    <tr><td class="paramname">listaG</td><td>Puntatore alla lista delle guide. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a38263e8e29565c836921529201b3785e" name="a38263e8e29565c836921529201b3785e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38263e8e29565c836921529201b3785e">&#9670;&#160;</a></span>salvaTuttiDati()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool salvaTuttiDati </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_lista_allievi.html">ListaAllievi</a> *</td>          <td class="paramname"><span class="paramname"><em>listaA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_pagamenti.html">ListaPagamenti</a> *</td>          <td class="paramname"><span class="paramname"><em>listaP</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_esami.html">ListaEsami</a> *</td>          <td class="paramname"><span class="paramname"><em>listaE</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_lista_guide.html">ListaGuide</a> *</td>          <td class="paramname"><span class="paramname"><em>listaG</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Salva tutti i dati su file binari. </p>
+<p>Chiama le funzioni di salvataggio di ogni ADT:</p><ul>
+<li><a class="el" href="allievi_8h.html#aed25c4828426b98d26406939c731e826" title="Salva la lista degli allievi su file binario.">salvaAllievi()</a> in allievi.dat</li>
+<li><a class="el" href="pagamenti_8h.html#ae22955e4f239081a6d384a3c912aba76" title="Salva la lista dei pagamenti su file binario.">salvaPagamenti()</a> in pagamenti.dat</li>
+<li><a class="el" href="esami_8h.html#a5a1df77bd53b2e5dd5f34153ea345eb5" title="Salva la lista degli esami su file binario.">salvaEsami()</a> in esami.dat</li>
+<li><a class="el" href="guida_8c.html#aa0857781bbb8598b4ab635fc584b0a00" title="Salva la lista delle guide su file binario.">salvaGuide()</a> in guide.dat</li>
+</ul>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listaA</td><td>Puntatore alla lista degli allievi. </td></tr>
+    <tr><td class="paramname">listaP</td><td>Puntatore alla lista dei pagamenti. </td></tr>
+    <tr><td class="paramname">listaE</td><td>Puntatore alla lista degli esami. </td></tr>
+    <tr><td class="paramname">listaG</td><td>Puntatore alla lista delle guide. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>true se tutte le operazioni riescono, false altrimenti. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="file_i_o_8c.html">fileIO.c</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

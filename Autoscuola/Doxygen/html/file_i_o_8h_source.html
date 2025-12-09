@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>717847_Autoscuola:  File sorgente fileIO.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">717847_Autoscuola<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('file_i_o_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">fileIO.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="file_i_o_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#ifndef FILEIO_H</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define FILEIO_H</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">//FORWARD DECLARATIONS (tipi opachi)</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="file_i_o_8h.html#a2e9d24aef7b1897b09c0aebbeb73d0cc">   22</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a> <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a> <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="file_i_o_8h.html#a8f6848df859839287e5f782c3d304ad0">   25</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">//FUNZIONI DI COORDINAMENTO I/O</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">bool</span> <a class="code hl_function" href="file_i_o_8h.html#a38263e8e29565c836921529201b3785e">salvaTuttiDati</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA,</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                    <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>* listaP,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                    <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>* listaE,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                    <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* listaG);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keywordtype">bool</span> <a class="code hl_function" href="file_i_o_8h.html#af0e7c115450f098ac5e9af2e6432de8c">caricaTuttiDati</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                     <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>* listaP,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                     <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>* listaE,</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                     <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* listaG);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">bool</span> <a class="code hl_function" href="file_i_o_8h.html#ac2569e2355b6da93db1c2a75895eac5b">esportaResocontoCompleto</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA,</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                              <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>* listaP,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                              <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>* listaE,</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                              <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* listaG);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keywordtype">void</span> <a class="code hl_function" href="file_i_o_8h.html#a94f054ce3444977e76b03629cf525ee7">salvaDati</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA,</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>               <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>* listaP,</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>               <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>* listaE,</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>               <span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* listaG);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="keywordtype">void</span> <a class="code hl_function" href="file_i_o_8h.html#a42fe8b93628dfb697dfe63552a66f775">caricaDati</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA,</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                <a class="code hl_struct" href="struct_lista_pagamenti.html">ListaPagamenti</a>* listaP,</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                <a class="code hl_struct" href="struct_lista_esami.html">ListaEsami</a>* listaE,</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>                <a class="code hl_struct" href="struct_lista_guide.html">ListaGuide</a>* listaG);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#endif </span><span class="comment">// FILEIO_H</span></div>
+<div class="ttc" id="afile_i_o_8h_html_a38263e8e29565c836921529201b3785e"><div class="ttname"><a href="file_i_o_8h.html#a38263e8e29565c836921529201b3785e">salvaTuttiDati</a></div><div class="ttdeci">bool salvaTuttiDati(const ListaAllievi *listaA, const ListaPagamenti *listaP, const ListaEsami *listaE, const ListaGuide *listaG)</div><div class="ttdoc">Salva tutti i dati su file binari.</div><div class="ttdef"><b>Definition</b> fileIO.c:20</div></div>
+<div class="ttc" id="afile_i_o_8h_html_a42fe8b93628dfb697dfe63552a66f775"><div class="ttname"><a href="file_i_o_8h.html#a42fe8b93628dfb697dfe63552a66f775">caricaDati</a></div><div class="ttdeci">void caricaDati(ListaAllievi *listaA, ListaPagamenti *listaP, ListaEsami *listaE, ListaGuide *listaG)</div><div class="ttdoc">Wrapper retrocompatibile per caricaTuttiDati(). Mantiene il nome originale della funzione per compati...</div><div class="ttdef"><b>Definition</b> fileIO.c:251</div></div>
+<div class="ttc" id="afile_i_o_8h_html_a94f054ce3444977e76b03629cf525ee7"><div class="ttname"><a href="file_i_o_8h.html#a94f054ce3444977e76b03629cf525ee7">salvaDati</a></div><div class="ttdeci">void salvaDati(const ListaAllievi *listaA, const ListaPagamenti *listaP, const ListaEsami *listaE, const ListaGuide *listaG)</div><div class="ttdoc">Wrapper retrocompatibile per salvaTuttiDati(). Mantiene il nome originale della funzione per compatib...</div><div class="ttdef"><b>Definition</b> fileIO.c:244</div></div>
+<div class="ttc" id="afile_i_o_8h_html_ac2569e2355b6da93db1c2a75895eac5b"><div class="ttname"><a href="file_i_o_8h.html#ac2569e2355b6da93db1c2a75895eac5b">esportaResocontoCompleto</a></div><div class="ttdeci">bool esportaResocontoCompleto(const ListaAllievi *listaA, const ListaPagamenti *listaP, const ListaEsami *listaE, const ListaGuide *listaG)</div><div class="ttdoc">Esporta un resoconto completo in formato testo leggibile.</div><div class="ttdef"><b>Definition</b> fileIO.c:66</div></div>
+<div class="ttc" id="afile_i_o_8h_html_af0e7c115450f098ac5e9af2e6432de8c"><div class="ttname"><a href="file_i_o_8h.html#af0e7c115450f098ac5e9af2e6432de8c">caricaTuttiDati</a></div><div class="ttdeci">bool caricaTuttiDati(ListaAllievi *listaA, ListaPagamenti *listaP, ListaEsami *listaE, ListaGuide *listaG)</div><div class="ttdoc">Carica tutti i dati dai file binari.</div><div class="ttdef"><b>Definition</b> fileIO.c:42</div></div>
+<div class="ttc" id="astruct_lista_allievi_html"><div class="ttname"><a href="struct_lista_allievi.html">ListaAllievi</a></div><div class="ttdoc">Raccoglie l&#39;elenco degli allievi iscritti.</div><div class="ttdef"><b>Definition</b> allievi.c:38</div></div>
+<div class="ttc" id="astruct_lista_esami_html"><div class="ttname"><a href="struct_lista_esami.html">ListaEsami</a></div><div class="ttdoc">Collezione di tutti gli esami registrati.</div><div class="ttdef"><b>Definition</b> esami.c:42</div></div>
+<div class="ttc" id="astruct_lista_guide_html"><div class="ttname"><a href="struct_lista_guide.html">ListaGuide</a></div><div class="ttdoc">Rappresenta l&#39;elenco delle guide di tutti gli allievi.</div><div class="ttdef"><b>Definition</b> guida.c:33</div></div>
+<div class="ttc" id="astruct_lista_pagamenti_html"><div class="ttname"><a href="struct_lista_pagamenti.html">ListaPagamenti</a></div><div class="ttdoc">Collezione statica di pagamenti registrati.</div><div class="ttdef"><b>Definition</b> pagamenti.c:36</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="file_i_o_8h.html">fileIO.h</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

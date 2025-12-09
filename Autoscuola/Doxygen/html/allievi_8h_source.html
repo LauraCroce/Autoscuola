@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>717847_Autoscuola:  File sorgente allievi.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">717847_Autoscuola<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('allievi_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Caricamento in corso...</div>
+<div class="SRStatus" id="Searching">Ricerca in corso...</div>
+<div class="SRStatus" id="NoMatches">Nessun risultato</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">allievi.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="allievi_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#ifndef ALLIEVI_H</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define ALLIEVI_H</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">//TIPI OPACHI</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="allievi_8h.html#abc3890acc1ab24ce6e66330eec279c01">   24</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_allievo.html">Allievo</a> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">//FUNZIONI DI CREAZIONE/DISTRUZIONE</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* <a class="code hl_function" href="allievi_8h.html#aedb714bf915320ca796a6f9e903ab0f0">creaListaAllievi</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#ae5fb8867b1f42cdb9600abbe604b8cb2">distruggiListaAllievi</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>** lista);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a60ef86372fada58d06613dadbc3ff841">inizializzaLista</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">//FUNZIONI DI ACCESSO (GETTER)</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">int</span> <a class="code hl_function" href="allievi_8h.html#a3773f62f0081d9864d48330705ed0adc">getNumeroAllievi</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> <a class="code hl_function" href="allievi_8h.html#a377e7861a193f2ce1272cdd66b99959b">getAllievoID</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="allievi_8h.html#a0f7350befb188a5cc875dde45f910206">getAllievoNome</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="allievi_8h.html#a0985d9e3f4c7dc5fd5674aa21265d237">getAllievoCognome</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="allievi_8h.html#aa518d542131b35d18c39c3c04babb1ef">getAllievoCodiceFiscale</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="allievi_8h.html#a1cea9a25c37a195934ec462ec621031e">getAllievoCategoriaPatente</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_function" href="allievi_8h.html#a78910501df7ccee32d225910dc0824ec">getAllievoStato</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keyword">const</span> <a class="code hl_struct" href="struct_allievo.html">Allievo</a>* <a class="code hl_function" href="allievi_8h.html#ac4e965d0496619bdbf0e6dedda15edac">getAllievoAtIndex</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keywordtype">int</span> index);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="comment">//FUNZIONI DI MODIFICA (SETTER)</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keywordtype">bool</span> <a class="code hl_function" href="allievi_8h.html#a8339966ed7a251b0ab76a4c7a96409e2">setAllievoStato</a>(<a class="code hl_struct" href="struct_allievo.html">Allievo</a>* allievo, <span class="keyword">const</span> <span class="keywordtype">char</span>* nuovo_stato);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">//FUNZIONALITÀ DI DOMINIO</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a06f2deacb9af2bcc28b8d0eee2fa97ee">aggiornaID</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="keywordtype">int</span> <a class="code hl_function" href="allievi_8h.html#a5c823e578a147b06b8962f96b4f501e9">trovaIDAllievo</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* nome, <span class="keyword">const</span> <span class="keywordtype">char</span>* cognome);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span><a class="code hl_struct" href="struct_allievo.html">Allievo</a>* <a class="code hl_function" href="allievi_8h.html#a7b33c25863d9b59dcae926e3aff49128">cercaAllievoPerNome</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* nome, <span class="keyword">const</span> <span class="keywordtype">char</span>* cognome);</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><a class="code hl_struct" href="struct_allievo.html">Allievo</a>* <a class="code hl_function" href="allievi_8h.html#a97806d12df81b15c78b9d492ad41ec82">cercaAllievoPerID</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span></div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span><span class="keywordtype">int</span> <a class="code hl_function" href="allievi_8h.html#a1b9f3e79c59ac6f0e48c8f52e696be8c">inserisciAllievoBase</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a58622d7a722aa0bb2f93be1837748f08">inserisciAllievo</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keywordtype">void</span>* listaP, <span class="keywordtype">void</span>* listaE);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a32177de59522298a70af7fea3fbb0bcf">ordinaAllieviAlfabetico</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#aae587bf6a76c573c7fbc1ef2f2cb0883">stampaAllievi</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#aa208d4f39a70df6dec4938239a83bc2b">filtraPerPatente</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span></div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a00b032aec658496b92dc052bfb71ace6">filtraPerStato</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="keywordtype">void</span> <a class="code hl_function" href="allievi_8h.html#a9bb67037eeb00e098bc80653beb29b83">cercaAllievo</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* listaA, <span class="keyword">const</span> <span class="keywordtype">void</span>* listaP, <span class="keyword">const</span> <span class="keywordtype">void</span>* listaE);</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="comment">//FUNZIONI I/O FILE</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="keywordtype">bool</span> <a class="code hl_function" href="allievi_8h.html#aed25c4828426b98d26406939c731e826">salvaAllievi</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="keywordtype">bool</span> <a class="code hl_function" href="allievi_8h.html#ac9d8d45251149995e8c6ffd5274122a6">caricaAllievi</a>(<a class="code hl_struct" href="struct_lista_allievi.html">ListaAllievi</a>* lista, <span class="keyword">const</span> <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="preprocessor">#endif </span><span class="comment">// ALLIEVI_H</span></div>
+<div class="ttc" id="aallievi_8h_html_a00b032aec658496b92dc052bfb71ace6"><div class="ttname"><a href="allievi_8h.html#a00b032aec658496b92dc052bfb71ace6">filtraPerStato</a></div><div class="ttdeci">void filtraPerStato(const ListaAllievi *lista)</div><div class="ttdoc">Filtra e stampa gli allievi per stato (iscritto/sospeso).</div><div class="ttdef"><b>Definition</b> allievi.c:278</div></div>
+<div class="ttc" id="aallievi_8h_html_a06f2deacb9af2bcc28b8d0eee2fa97ee"><div class="ttname"><a href="allievi_8h.html#a06f2deacb9af2bcc28b8d0eee2fa97ee">aggiornaID</a></div><div class="ttdeci">void aggiornaID(ListaAllievi *lista)</div><div class="ttdoc">Aggiorna il prossimo ID disponibile in base agli allievi esistenti.</div><div class="ttdef"><b>Definition</b> allievi.c:116</div></div>
+<div class="ttc" id="aallievi_8h_html_a0985d9e3f4c7dc5fd5674aa21265d237"><div class="ttname"><a href="allievi_8h.html#a0985d9e3f4c7dc5fd5674aa21265d237">getAllievoCognome</a></div><div class="ttdeci">const char * getAllievoCognome(const Allievo *allievo)</div><div class="ttdoc">Restituisce il cognome di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:82</div></div>
+<div class="ttc" id="aallievi_8h_html_a0f7350befb188a5cc875dde45f910206"><div class="ttname"><a href="allievi_8h.html#a0f7350befb188a5cc875dde45f910206">getAllievoNome</a></div><div class="ttdeci">const char * getAllievoNome(const Allievo *allievo)</div><div class="ttdoc">Restituisce il nome di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:78</div></div>
+<div class="ttc" id="aallievi_8h_html_a1b9f3e79c59ac6f0e48c8f52e696be8c"><div class="ttname"><a href="allievi_8h.html#a1b9f3e79c59ac6f0e48c8f52e696be8c">inserisciAllievoBase</a></div><div class="ttdeci">int inserisciAllievoBase(ListaAllievi *lista)</div><div class="ttdoc">Inserisce un nuovo allievo nella lista (acquisizione da tastiera). Questa funzione interagisce con l&#39;...</div><div class="ttdef"><b>Definition</b> allievi.c:162</div></div>
+<div class="ttc" id="aallievi_8h_html_a1cea9a25c37a195934ec462ec621031e"><div class="ttname"><a href="allievi_8h.html#a1cea9a25c37a195934ec462ec621031e">getAllievoCategoriaPatente</a></div><div class="ttdeci">const char * getAllievoCategoriaPatente(const Allievo *allievo)</div><div class="ttdoc">Restituisce la categoria patente di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:90</div></div>
+<div class="ttc" id="aallievi_8h_html_a32177de59522298a70af7fea3fbb0bcf"><div class="ttname"><a href="allievi_8h.html#a32177de59522298a70af7fea3fbb0bcf">ordinaAllieviAlfabetico</a></div><div class="ttdeci">void ordinaAllieviAlfabetico(ListaAllievi *lista)</div><div class="ttdoc">Ordina gli allievi alfabeticamente per cognome e nome.</div><div class="ttdef"><b>Definition</b> allievi.c:222</div></div>
+<div class="ttc" id="aallievi_8h_html_a3773f62f0081d9864d48330705ed0adc"><div class="ttname"><a href="allievi_8h.html#a3773f62f0081d9864d48330705ed0adc">getNumeroAllievi</a></div><div class="ttdeci">int getNumeroAllievi(const ListaAllievi *lista)</div><div class="ttdoc">Restituisce il numero di allievi nella lista.</div><div class="ttdef"><b>Definition</b> allievi.c:70</div></div>
+<div class="ttc" id="aallievi_8h_html_a377e7861a193f2ce1272cdd66b99959b"><div class="ttname"><a href="allievi_8h.html#a377e7861a193f2ce1272cdd66b99959b">getAllievoID</a></div><div class="ttdeci">int getAllievoID(const Allievo *allievo)</div><div class="ttdoc">Restituisce l&#39;ID di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:74</div></div>
+<div class="ttc" id="aallievi_8h_html_a58622d7a722aa0bb2f93be1837748f08"><div class="ttname"><a href="allievi_8h.html#a58622d7a722aa0bb2f93be1837748f08">inserisciAllievo</a></div><div class="ttdeci">void inserisciAllievo(ListaAllievi *lista, void *listaP, void *listaE)</div><div class="ttdoc">Inserisce un nuovo allievo e inizializza i suoi pagamenti ed esami. Questa è la funzione da chiamare da...</div><div class="ttdef"><b>Definition</b> allievi.c:193</div></div>
+<div class="ttc" id="aallievi_8h_html_a5c823e578a147b06b8962f96b4f501e9"><div class="ttname"><a href="allievi_8h.html#a5c823e578a147b06b8962f96b4f501e9">trovaIDAllievo</a></div><div class="ttdeci">int trovaIDAllievo(const ListaAllievi *lista, const char *nome, const char *cognome)</div><div class="ttdoc">Cerca l&#39;ID di un allievo a partire da nome e cognome.</div><div class="ttdef"><b>Definition</b> allievi.c:127</div></div>
+<div class="ttc" id="aallievi_8h_html_a60ef86372fada58d06613dadbc3ff841"><div class="ttname"><a href="allievi_8h.html#a60ef86372fada58d06613dadbc3ff841">inizializzaLista</a></div><div class="ttdeci">void inizializzaLista(ListaAllievi *lista)</div><div class="ttdoc">Inizializza una lista già allocata (retrocompatibilità).</div><div class="ttdef"><b>Definition</b> allievi.c:62</div></div>
+<div class="ttc" id="aallievi_8h_html_a78910501df7ccee32d225910dc0824ec"><div class="ttname"><a href="allievi_8h.html#a78910501df7ccee32d225910dc0824ec">getAllievoStato</a></div><div class="ttdeci">const char * getAllievoStato(const Allievo *allievo)</div><div class="ttdoc">Restituisce lo stato di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:94</div></div>
+<div class="ttc" id="aallievi_8h_html_a7b33c25863d9b59dcae926e3aff49128"><div class="ttname"><a href="allievi_8h.html#a7b33c25863d9b59dcae926e3aff49128">cercaAllievoPerNome</a></div><div class="ttdeci">Allievo * cercaAllievoPerNome(ListaAllievi *lista, const char *nome, const char *cognome)</div><div class="ttdoc">Cerca un allievo per nome e cognome.</div><div class="ttdef"><b>Definition</b> allievi.c:139</div></div>
+<div class="ttc" id="aallievi_8h_html_a8339966ed7a251b0ab76a4c7a96409e2"><div class="ttname"><a href="allievi_8h.html#a8339966ed7a251b0ab76a4c7a96409e2">setAllievoStato</a></div><div class="ttdeci">bool setAllievoStato(Allievo *allievo, const char *nuovo_stato)</div><div class="ttdoc">Modifica lo stato di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:107</div></div>
+<div class="ttc" id="aallievi_8h_html_a97806d12df81b15c78b9d492ad41ec82"><div class="ttname"><a href="allievi_8h.html#a97806d12df81b15c78b9d492ad41ec82">cercaAllievoPerID</a></div><div class="ttdeci">Allievo * cercaAllievoPerID(ListaAllievi *lista, int id)</div><div class="ttdoc">Cerca un allievo per ID.</div><div class="ttdef"><b>Definition</b> allievi.c:151</div></div>
+<div class="ttc" id="aallievi_8h_html_a9bb67037eeb00e098bc80653beb29b83"><div class="ttname"><a href="allievi_8h.html#a9bb67037eeb00e098bc80653beb29b83">cercaAllievo</a></div><div class="ttdeci">void cercaAllievo(const ListaAllievi *listaA, const void *listaP, const void *listaE)</div><div class="ttdoc">Mostra i dettagli completi di un allievo (compresi pagamenti ed esami).</div><div class="ttdef"><b>Definition</b> allievi.c:303</div></div>
+<div class="ttc" id="aallievi_8h_html_aa208d4f39a70df6dec4938239a83bc2b"><div class="ttname"><a href="allievi_8h.html#aa208d4f39a70df6dec4938239a83bc2b">filtraPerPatente</a></div><div class="ttdeci">void filtraPerPatente(const ListaAllievi *lista)</div><div class="ttdoc">Filtra e stampa gli allievi per categoria di patente.</div><div class="ttdef"><b>Definition</b> allievi.c:253</div></div>
+<div class="ttc" id="aallievi_8h_html_aa518d542131b35d18c39c3c04babb1ef"><div class="ttname"><a href="allievi_8h.html#aa518d542131b35d18c39c3c04babb1ef">getAllievoCodiceFiscale</a></div><div class="ttdeci">const char * getAllievoCodiceFiscale(const Allievo *allievo)</div><div class="ttdoc">Restituisce il codice fiscale di un allievo.</div><div class="ttdef"><b>Definition</b> allievi.c:86</div></div>
+<div class="ttc" id="aallievi_8h_html_aae587bf6a76c573c7fbc1ef2f2cb0883"><div class="ttname"><a href="allievi_8h.html#aae587bf6a76c573c7fbc1ef2f2cb0883">stampaAllievi</a></div><div class="ttdeci">void stampaAllievi(const ListaAllievi *lista)</div><div class="ttdoc">Stampa l&#39;elenco completo degli allievi.</div><div class="ttdef"><b>Definition</b> allievi.c:239</div></div>
+<div class="ttc" id="aallievi_8h_html_ac4e965d0496619bdbf0e6dedda15edac"><div class="ttname"><a href="allievi_8h.html#ac4e965d0496619bdbf0e6dedda15edac">getAllievoAtIndex</a></div><div class="ttdeci">const Allievo * getAllievoAtIndex(const ListaAllievi *lista, int index)</div><div class="ttdoc">Ottiene un puntatore all&#39;allievo in posizione index.</div><div class="ttdef"><b>Definition</b> allievi.c:98</div></div>
+<div class="ttc" id="aallievi_8h_html_ac9d8d45251149995e8c6ffd5274122a6"><div class="ttname"><a href="allievi_8h.html#ac9d8d45251149995e8c6ffd5274122a6">caricaAllievi</a></div><div class="ttdeci">bool caricaAllievi(ListaAllievi *lista, const char *filename)</div><div class="ttdoc">Carica la lista degli allievi da file binario.</div><div class="ttdef"><b>Definition</b> allievi.c:378</div></div>
+<div class="ttc" id="aallievi_8h_html_ae5fb8867b1f42cdb9600abbe604b8cb2"><div class="ttname"><a href="allievi_8h.html#ae5fb8867b1f42cdb9600abbe604b8cb2">distruggiListaAllievi</a></div><div class="ttdeci">void distruggiListaAllievi(ListaAllievi **lista)</div><div class="ttdoc">Distrugge una lista di allievi e libera la memoria.</div><div class="ttdef"><b>Definition</b> allievi.c:55</div></div>
+<div class="ttc" id="aallievi_8h_html_aed25c4828426b98d26406939c731e826"><div class="ttname"><a href="allievi_8h.html#aed25c4828426b98d26406939c731e826">salvaAllievi</a></div><div class="ttdeci">bool salvaAllievi(const ListaAllievi *lista, const char *filename)</div><div class="ttdoc">Salva la lista degli allievi su file binario.</div><div class="ttdef"><b>Definition</b> allievi.c:358</div></div>
+<div class="ttc" id="aallievi_8h_html_aedb714bf915320ca796a6f9e903ab0f0"><div class="ttname"><a href="allievi_8h.html#aedb714bf915320ca796a6f9e903ab0f0">creaListaAllievi</a></div><div class="ttdeci">ListaAllievi * creaListaAllievi(void)</div><div class="ttdoc">Crea e inizializza una nuova lista di allievi.</div><div class="ttdef"><b>Definition</b> allievi.c:46</div></div>
+<div class="ttc" id="astruct_allievo_html"><div class="ttname"><a href="struct_allievo.html">Allievo</a></div><div class="ttdoc">Rappresenta un allievo iscritto all&#39;autoscuola.</div><div class="ttdef"><b>Definition</b> allievi.c:25</div></div>
+<div class="ttc" id="astruct_lista_allievi_html"><div class="ttname"><a href="struct_lista_allievi.html">ListaAllievi</a></div><div class="ttdoc">Raccoglie l&#39;elenco degli allievi iscritti.</div><div class="ttdef"><b>Definition</b> allievi.c:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="allievi_8h.html">allievi.h</a></li>
+    <li class="footer">Generato da <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>
